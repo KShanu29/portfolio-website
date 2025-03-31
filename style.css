@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #004080;
+    color: white;
+    padding: 20px;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.header-text {
+    flex-grow: 1;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.header-text p {
+    margin: 5px 0 0;
+    font-size: 16px;
+}
+
+nav {
+    background: ##004080;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #004080;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .header-container {
+        text-align: center;
+        flex-direction: column;
+    }
+
+    .profile-pic {
+        margin: 0 auto 10px;
+    }
+
+    nav ul {
+        display: block;
+        text-align: center;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
